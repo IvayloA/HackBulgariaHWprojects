@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashDeskApplication", "CashDeskApplication\CashDeskApplication.csproj", "{46D477A0-631E-4C33-B4AC-81B20EDAD43D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashDeskLibraby", "CashDeskLibraby\CashDeskLibraby.csproj", "{AFBFC90D-8DC9-4ED4-A23F-A2271EEF493D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D477A0-631E-4C33-B4AC-81B20EDAD43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D477A0-631E-4C33-B4AC-81B20EDAD43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D477A0-631E-4C33-B4AC-81B20EDAD43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D477A0-631E-4C33-B4AC-81B20EDAD43D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBFC90D-8DC9-4ED4-A23F-A2271EEF493D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBFC90D-8DC9-4ED4-A23F-A2271EEF493D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBFC90D-8DC9-4ED4-A23F-A2271EEF493D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBFC90D-8DC9-4ED4-A23F-A2271EEF493D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
