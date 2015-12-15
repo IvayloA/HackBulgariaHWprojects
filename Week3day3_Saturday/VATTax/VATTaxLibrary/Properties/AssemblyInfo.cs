@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("VATtaxCalc")]
+[assembly: AssemblyTitle("VATTaxLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("VATtaxCalc")]
+[assembly: AssemblyProduct("VATTaxLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1d6f23fa-efce-407a-808a-024997e038bc")]
+[assembly: Guid("6256f400-3a25-4cd0-aea8-c374e91bae55")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VATTaxLibrary;
 
-namespace VATtaxCalc
+namespace VATTaxApplication
 {
-    class CalcMain
+    class VatTaxCalculator
     {
         static void Main()
         {
@@ -31,10 +32,11 @@ namespace VATtaxCalc
 
             if (Country.Length > 0)
             {
-                Console.WriteLine("The tax in {0} is {1}",Country,taxCalc.CalculateTax(int.Parse(Price),Country));
-            } else
+                Console.WriteLine("The tax in {0} is {1}", Country, taxCalc.CalculateTax(int.Parse(Price), Country));
+            }
+            else
             {
-                Console.WriteLine("The tax in {0} is {1}",Country,taxCalc.CalculateTax(int.Parse(Price)));
+                Console.WriteLine("The tax in {0} is {1}", Country, taxCalc.CalculateTax(int.Parse(Price)));
             }
             Console.Read();
         }

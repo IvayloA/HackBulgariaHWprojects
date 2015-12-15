@@ -4,21 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VATtaxCalc
+namespace VATTaxLibrary
 {
-    class TaxCalc
+    public class TaxCalc
     {
         private List<CountryVatTax> VatTax = new List<CountryVatTax>();
 
 
-        public  TaxCalc(List<CountryVatTax> VatTax)
+        public TaxCalc(List<CountryVatTax> VatTax)
         {
             this.VatTax = VatTax;
         }
 
 
 
-        public double CalculateTax(int price,string country)
+        public double CalculateTax(int price, string country)
         {
             double tax = double.MinValue;
             foreach (var searcher in VatTax)
@@ -28,16 +28,17 @@ namespace VATtaxCalc
                     tax = (double)((price) * (double)searcher.TaxPercent / 100);
                 }
             }
-                if (tax != double.MinValue) {
+            if (tax != double.MinValue)
+            {
 
-                    return tax;
-                }
-                else
-                {
-                    throw new ArgumentException("The country is not supported.");
-                }
-
+                return tax;
             }
+            else
+            {
+                throw new ArgumentException("The country is not supported.");
+            }
+
+        }
 
 
 
@@ -51,10 +52,11 @@ namespace VATtaxCalc
                     tax = (double)((price) * (double)searcher.TaxPercent / 100);
                 }
             }
-            if (tax!= double.MinValue)
+            if (tax != double.MinValue)
             {
                 return tax;
-            } else
+            }
+            else
             {
                 throw new ArgumentException("Can't find the default country!");
             }
