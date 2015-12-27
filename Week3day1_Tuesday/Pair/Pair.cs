@@ -17,11 +17,9 @@ namespace Pair
             this.pair2 = pair2;
         }
 
-        public override string ToString()
+       public override string ToString()
         {
-            string repre = "This is a miningful representaion of the class";
-
-            return repre;
+            return string.Format("Pair [{0},{1}]",pair1,pair2);
         }
 
         public override bool Equals(object obj)
