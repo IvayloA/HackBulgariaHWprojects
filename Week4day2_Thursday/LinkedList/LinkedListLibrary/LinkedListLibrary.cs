@@ -23,7 +23,7 @@ namespace LinkedListLibrary
 
         public int Count { get { return Size; } }
 
-        public object Current   // IEnumerator
+        public object Current  
         {
             get
             {
