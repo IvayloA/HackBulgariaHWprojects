@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryCopyApp", "DirectoryCopy\DirectoryCopyApp.csproj", "{A7753E48-CE99-4333-A995-EA638655E9AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryCopyLib", "DirectoryCopyLib\DirectoryCopyLib.csproj", "{091749B9-6B15-4ED8-8D80-0C227633C899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7753E48-CE99-4333-A995-EA638655E9AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7753E48-CE99-4333-A995-EA638655E9AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7753E48-CE99-4333-A995-EA638655E9AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7753E48-CE99-4333-A995-EA638655E9AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091749B9-6B15-4ED8-8D80-0C227633C899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091749B9-6B15-4ED8-8D80-0C227633C899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091749B9-6B15-4ED8-8D80-0C227633C899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091749B9-6B15-4ED8-8D80-0C227633C899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
