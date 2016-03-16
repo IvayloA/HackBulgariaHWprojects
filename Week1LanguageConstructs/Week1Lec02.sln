@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntToList", "Week1Lec02\IntToList.csproj", "{2CA81410-78DD-4ECD-A072-D3A559B077CD}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecodeAnURL", "DecodeAnURL\DecodeAnURL.csproj", "{A421ADCF-C850-4DAA-9505-44AD3E88E86C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsAnagram", "IsAnagram\IsAnagram.csproj", "{2E8CCA6E-74B3-4101-B483-54CD85C7DE10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopyEveryCharacterKthTimes", "CopyEveryCharacterKthTimes\CopyEveryCharacterKthTimes.csproj", "{5FDF6718-677B-4EEA-97FC-764C065EBAC7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{2E8CCA6E-74B3-4101-B483-54CD85C7DE10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E8CCA6E-74B3-4101-B483-54CD85C7DE10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E8CCA6E-74B3-4101-B483-54CD85C7DE10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDF6718-677B-4EEA-97FC-764C065EBAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDF6718-677B-4EEA-97FC-764C065EBAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDF6718-677B-4EEA-97FC-764C065EBAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDF6718-677B-4EEA-97FC-764C065EBAC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

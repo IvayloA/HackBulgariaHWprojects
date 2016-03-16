@@ -18,7 +18,7 @@ namespace Week1Lec02
                     num = num / 10;  
             }
             numDigits.Reverse();
-            Console.Write("The number in the list is: ");
+            Console.WriteLine("The number in the list is: ");
             return numDigits;
         }
         static void Main(string[] args)
@@ -27,9 +27,9 @@ namespace Week1Lec02
             List<int> result = NumberToList(Int32.Parse(Console.ReadLine()));
             foreach (int digit in result)
             {
-                Console.Write(digit);
+                Console.WriteLine(digit);
             }
-            Console.Read();
+            Console.ReadLine();
         }
     }
 }

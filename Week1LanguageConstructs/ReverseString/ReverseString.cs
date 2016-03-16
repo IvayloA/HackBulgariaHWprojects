@@ -17,6 +17,7 @@ namespace ReverseString
         static void Main(string[] args)
         {
             string input = "This string will be reversed.";
+            Console.WriteLine(input);
             Console.WriteLine(ReverseMe(input));
             Console.Read();
         }

@@ -18,6 +18,7 @@ namespace ReverseEachWord
         static void Main(string[] args)
         {
             string input = "Each word should be reversed";
+            Console.WriteLine(input);
             Console.WriteLine(ReverseEWord(input));
             Console.Read();
         }
