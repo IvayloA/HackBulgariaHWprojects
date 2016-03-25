@@ -8,7 +8,7 @@ namespace RecursiveFact
 {
     class RecursiveFact
     {
-        static int RecursiveFactor(int number, int numTracer)
+        static int RecursiveFactor(int number)
         {
             if(number == 0)
             {
@@ -16,7 +16,7 @@ namespace RecursiveFact
             } else
             { 
                 {
-                    return (number * RecursiveFactor(number - 1, numTracer + 1));
+                    return (number * RecursiveFactor(number - 1));
                 }
 
             }
@@ -24,7 +24,7 @@ namespace RecursiveFact
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(RecursiveFactor(4,0));
+            Console.WriteLine(RecursiveFactor(4));
             Console.ReadLine();
         }
     }
