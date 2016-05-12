@@ -11,7 +11,7 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            LinkedListLibrary.LinkedList<string> list = new LinkedListLibrary.LinkedList<string>();
+            LinkedList<string> list = new LinkedList<string>();
 
             list.Add("best");
             list.Add("west");
